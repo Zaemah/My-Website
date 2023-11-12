@@ -247,6 +247,9 @@ footer .contact-box {
             padding: 0;
         }
             h4{ 
+                font-size: 18px;
+            }
+            p{
                 font-size: 14px;
             }
     }
