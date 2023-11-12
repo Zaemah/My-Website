@@ -32,7 +32,7 @@ body{
       padding: 0 60px 0 0;
        
     }
-    .developer, .about{
+    h1{
         font-family: cursive;
         font-size: bolder;
         font-weight:bold;
@@ -173,27 +173,77 @@ p {
     font-size: 28px;
     text-decoration: none;
 }
+
+
+.content-container {
+    padding: 60px 20px;
+}
+.content {
+    margin: 30px;
+}
+.content h1 {
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.content h3 {
+    font-size: 24px;
+    line-height: 1.5;
+    font-family: var(--default-font-family);
+}
+.content p {
+    font-size: 16px;
+    background: none;
+    
+}
 .btn-branding {
-    background: blue;
+    background: blueviolet;
     border-radius: 4px;
     color: white;
     text-decoration: none;
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;
-    text-align: center;
+}
+.btn-branding-outline {
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    border-radius: 4px;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 27px;
+    padding: 15px 30px;
+}
+.btn-branding-outline:hover {
+    background: blue;
+    color: white;
+}
+footer {
+    margin: 60px 0;
+}
+footer .email-link {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+footer .contact-box {
+    background: var(--secondary-color);
+    padding: 30px 120px;
+    border-radius: 10px;
 }
     @media(max-width:600px){
+        @media(max-width:600px){
         img{
             width: 250px;
         }
-        .developer{
-            font-size: 35px;
+         h1, h2, h3{
+            font-size: 34px;
             text-align: left;
             font-weight: bold;
-            font-family: cursive;
+          
         }
-        .about{
-            font-size: 50px;
-    }
+        .content {
+            text-align: center;
+            padding: 0;
+        }
     }
