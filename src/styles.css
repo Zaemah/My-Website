@@ -32,7 +32,7 @@ body{
       padding: 0 60px 0 0;
        
     }
-    .developer{
+    .developer, .about{
         font-family: cursive;
         font-size: bolder;
         font-weight:bold;
